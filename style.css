@@ -1,14 +1,35 @@
 body {
 	background-color: #00008B;
+	width: 970px;
+}
+div {
+	padding: 20px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 10px;
+	color: white;
+}
+span {
+	color: blue;
+}
+a{
+	color: lightblue;
 }
 #header {
 	background: red;
-	width: 970px;
+	width: 925px;
 	height: 25%;
-	border-radius: 20px;
-	color: white;
-	padding: 5px 20px;
-	display: inline-block;
-	vertical-align: top;
-	margin:5px;
+	padding: 0px 20px;
+}
+#navbar {
+	background:teal;
+	width: 22%;
+}
+#main_content {
+	background-color: black;
+	width: 67%;
+}
+#footer {
+	background-color: gray;
 }
