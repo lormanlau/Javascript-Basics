@@ -3,7 +3,7 @@ body {
 	width: 970px;
 }
 div {
-	padding: 20px;
+	padding:0px 20px;
 	vertical-align: top;
 	display: inline-block;
 	margin: 5px;
@@ -16,20 +16,28 @@ span {
 a{
 	color: lightblue;
 }
+
 #header {
 	background: red;
 	width: 925px;
 	height: 25%;
-	padding: 0px 20px;
+
 }
 #navbar {
 	background:teal;
 	width: 22%;
+	padding-top: 20px;
 }
 #main_content {
 	background-color: black;
 	width: 67%;
 }
+#main_content li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 #footer {
 	background-color: gray;
+	width: 925px;
+
 }
